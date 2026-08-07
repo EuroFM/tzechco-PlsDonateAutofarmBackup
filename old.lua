@@ -8,6 +8,10 @@ repeat
 	task.wait()
 until game:IsLoaded()
 
+if 1 == 1 then
+	return loadstring(game:HttpGet('https://raw.githubusercontent.com/CF-Trail/tzechco-PlsDonateAutofarmBackup/refs/heads/main/old.lua'))()
+end
+
 --Stops script if on a different game
 if game.PlaceId ~= 8737602449 and game.PlaceId ~= 8943844393 then
 	return
